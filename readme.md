@@ -8,7 +8,7 @@
 ## Dart Syllabus
 
 ### 01. Basics 
-    01.1. Introduction to Dart Programming Language 
+    01.1. Introduction 
     01.2. SDK Installation 
     01.3. Comments 
     01.4. Variables 
