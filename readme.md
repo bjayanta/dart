@@ -8,38 +8,45 @@
 ## Dart Syllabus
 
 ### 01. Basics 
-    01.1. Introduction to Dart Programming Language 
-    01.2. SDK Installation 
-    01.3. Comments 
-    01.4. Variables 
-    01.5. Operators 
-    01.6. Standard Input Output 
+- Introduction to Dart Programming Language 
+- SDK Installation 
+- Comments 
+- Variables 
+- Operators 
+- Standard Input Output 
 
 ### 02. Data Types
-    02.1. Data Types
-    02.2. Numbers
-    02.3. Strings
-    02.4. List
-    02.5. Sets
-    02.6. Map
-    02.7. Queues in Dart
-    02.8. Enums
+- Data Types
+- Number
+- String
+- Boolean
+- List
+- Set
+- Map
+- Runes
 
-### 03. Control Flow 
+### 03. Functions 
+- What is Function?
+- Types of Functions 
+    - General purpus function
+    - arrow function 
+    - anonymous function
+- Anonymous Function
+    - Lambdas
+    - Closures 
+- Parameters
+    - Required positional 
+    - Optional positional
+    - Required named
+    - Optional named
+- Lexical scope 
+
+### 04. Control Flow 
     03.1. If-Else Statements
     03.2. Switch Case Statements
     03.3. Loops
     03.4. Loop Control Statements
     03.5. Labels 
-
-### 04. Key Functions 
-    04.1. Function
-    04.2. Types of Functions
-    04.3. Anonymous Function
-    04.4. main() Function
-    04.5. Common Collection Methods
-    04.6. exit() function
-    04.7. Getter and Setter Methods in Dart
 
 ### 05. Object-Oriented Programming 
     05.1. Classes & Objects
