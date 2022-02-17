@@ -42,14 +42,28 @@
 - Lexical scope 
 
 ### 04. Control Flow 
-    03.1. If-Else Statements
-    03.2. Switch Case Statements
-    03.3. Loops
-    03.4. Loop Control Statements
-    03.5. Labels 
+- If-Else Statements
+- Switch Case Statements
+- Loops
+- Loop Control Statements
+- Labels 
 
 ### 05. Object-Oriented Programming 
-    05.1. Classes & Objects
+- Classes & Objects
+- Properties 
+    - Instance variables As Fields 
+        - Initialization & Declare 
+        - Final, Late, Static & Const Keywords
+        - Private fields
+        - Getters & Setters
+    - methods 
+        - How to define?
+        - Constructors 
+        - This keyword 
+- Operators
+- Singleton
+
+    <!-- 05.1. Classes & Objects
     05.2. Constructors
     05.3. Super Constructor
     05.4. this Keyword
@@ -64,9 +78,9 @@
     05.13. Builder Class
     05.14. Concept of Callable Classes in Dart
     05.15. Interfaces
-    05.16. extends Vs with Vs implements
+    05.16. extends Vs with Vs implements -->
 
-### 06. Dart Utilities 
+<!-- ### 06. Dart Utilities 
     06.1. Date and Time
     06.2. Using await async in Dart
     06.3. Data Enumeration in Dart
@@ -99,7 +113,7 @@
     08.11. Isolates
     08.12. Async
     08.13. String codeUnits Property
-    08.14. HTML DOM
+    08.14. HTML DOM -->
 
 ## Best tutorial websites 
 - https://dart.dev/tutorials 
