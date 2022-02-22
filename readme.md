@@ -62,23 +62,17 @@
         - This keyword 
 - Operators
 - Singleton
-
-    <!-- 05.1. Classes & Objects
-    05.2. Constructors
-    05.3. Super Constructor
-    05.4. this Keyword
-    05.5. static Keyword
-    05.6. super Keyword
-    05.7. Const And Final Keyword
-    05.8. Inheritance
-    05.9. Methods
-    05.10. Method Overloading
-    05.11. Getters & Setters
-    05.12. Abstract Classes
-    05.13. Builder Class
-    05.14. Concept of Callable Classes in Dart
-    05.15. Interfaces
-    05.16. extends Vs with Vs implements -->
+- Inheritance
+    - Inheritance concept is achieved by using the Extends keyword
+    - class Duck extends Bird{} - Duck(derived, subclass), Bird (base, superclass)
+    - Extends is used for SHARING BEHAHIOR between SUPERCLASS & SUBCLASS
+    - FIELDS @ METHODS inside the SUPERCLASS are AVAILABLE in the SUBCLASS
+    - The SUPERCLASS can be accessed by using the super keyword
+    - All Dart Classes EXTEND ONLY ONE CLASS (Object Class by default)
+    - The concept of POLIMORPHISM can be achieved in two ways:
+        - @overriding methods
+        - @overloading methods (optional parameters)
+    - You can TIGHTEN a type by using the covariant keyword
 
 <!-- ### 06. Dart Utilities 
     06.1. Date and Time
