@@ -73,6 +73,13 @@
         - @overriding methods
         - @overloading methods (optional parameters)
     - You can TIGHTEN a type by using the covariant keyword
+- Abstraction (implements)
+    - Abstract class, Abstract method, Interfaces 
+    - Abstraction concept is achieved by using the implements keyword
+    - Class A implements B{} - B is an Interface that need to implement in A
+    - In dart, every class is an Implicit Interface, but every Abstract class is an Explicit Interface
+    When implementing an interface, you have to override every field and method from inside interface
+    - YYou can Extend only one class, but Implement one or more interface
 
 <!-- ### 06. Dart Utilities 
     06.1. Date and Time
