@@ -1,32 +1,35 @@
-# Basic Dart Program
+# Variable
 
-- Create "Hello World!" program
-- Discuss about :
-  - void keyword
-  - main function
-- Example :
-  - Store your name into a variable and print
-  - Join two variables and print
-  - Basic calculation
-- How to create dart project, where to write code & how to run
+- Syntax
+- Types with example
+  - var
+  - String
+  - int
+  - double
+  - num
+  - bool
+- Some rules + naming convention
+- Constant (const)
+- Final (final) keyword
+- Difference between "const" & "final"
 
-## How to create dart project
+## Syntax
 
-> dart create < project-name >
+> datatype variable_name = value;
 
-## Where to write code in a project
+## Some rules + naming convention
 
-> project/bin/project_name.dart
+- Variable names are case sensitive (a and A are different).
+- Variable name can consist of letters and alphabets.
+- Variable name cannot start with number.
+- Keywords are not allowed to use as a variable name.
+- Blank spaces are not allowed in a variable name.
+- Special characters are not allowed except for the underscore (_) and the dollar ($) symbol.
 
-## How to run dart project
+## Difference between "const" & "final"
 
-> dart run
+- Initialization difference
+- Compile time difference
+- Class/Instance level const variable is not possible
 
 ## Home work
-
-- Print 5 line about your self.
-- Basic calculation :
-  - Summation
-  - Subtraction
-  - Multiplication
-  - Division
