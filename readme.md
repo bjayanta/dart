@@ -1,33 +1,23 @@
-# Dart Programming Language
+# Basic Dart Program
 
-## Useful links
+- Create "Hello World!" program
+- Discuss about :
+  - void keyword
+  - main function
+- Example :
+  - Store your name into a variable and print
+  - Join two variables and print
+  - Basic calculation
+- How to create dart project, where to write code & how to run
 
-- Dart official website [https://dart.dev/](https://dart.dev/).
-- Online practice pad [DartPad](https://dartpad.dev/?).
-- Download "Dart SDK" from [https://dart.dev/get-dart/archive](https://dart.dev/get-dart/archive).
+## How to create dart project
 
-## Dart Syllabus
+> dart create < project-name >
 
-1. Introduction and Overview
-2. Installation & Configuration
-3. Basic Dart Program
-4. Variable
-5. Operators
-6. Datatypes
-7. Conditions
-8. Loops
-9. Functions
-10. Collections
-11. OOP
-12. Null Safety
-13. Asynchronous Programming
-14. Examples
-15. Exam
+## Where to write code in a project
 
-## Best tutorial websites
+> project/bin/project_name.dart
 
-- <https://dart.dev/tutorials>
-- <https://www.tutorialspoint.com/dart_programming/>
-- <https://www.geeksforgeeks.org/dart-tutorial/>
+## How to run dart project
 
-Thanks.
+> dart run
