@@ -21,3 +21,12 @@
 ## How to run dart project
 
 > dart run
+
+## Home work
+
+- Print 5 line about your self.
+- Basic calculation :
+  - Summation
+  - Subtraction
+  - Multiplication
+  - Division

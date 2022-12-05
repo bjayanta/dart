@@ -1,9 +1,10 @@
-// start dart
+// Create "Hello World!" program
 // void main() {
 //   print("Hello World!");
 // }
 
-// print statement
+// Store your name into a variable and print
+// Depth of print function
 // void main() {
 //   var name = "Jayanta";
 
@@ -14,13 +15,22 @@
 //   print(r"Amar kase \$10 ase.");
 // }
 
-// basic calculation
-void main() {
-  var a = 10, b = 20, sum, multi;
+// Join two variables and print
+// void main() {
+//   var first_name = "Jayanta";
+//   var last_name = "Biswas";
 
-  sum = a + b;
-  multi = a * b;
+//   print("My name is $first_name $last_name.");
+// }
 
-  print("The sum of $a and $b is: $sum");
-  print("The multi of $a and $b is: $multi");
-}
+
+// Basic calculation
+// void main() {
+//   var a = 10, b = 20, sum, multi;
+
+//   sum = a + b;
+//   multi = a * b;
+
+//   print("The sum of $a and $b is: $sum");
+//   print("The multi of $a and $b is: $multi");
+// }
