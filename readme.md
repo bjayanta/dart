@@ -1,33 +1,78 @@
-# Dart Programming Language
+# Operators
 
-## Useful links
+- What is operators?
+- Operands(represents the data) & Operator(represents how the operands will be processed to produce a value)
+- Types Of Operators :
+  - Arithmetic
+  - Increment and Decrement
+  - Assignment
+  - Relational
+  - Logical
+  - Type Test Operators
 
-- Dart official website [https://dart.dev/](https://dart.dev/).
-- Online practice pad [DartPad](https://dartpad.dev/?).
-- Download "Dart SDK" from [https://dart.dev/get-dart/archive](https://dart.dev/get-dart/archive).
+## Arithmetic Operators
 
-## Dart Syllabus
+| Operator Symbol | Operator Name |
+| --------------- | ------------- |
+| + | Addition |
+| - | Subtraction |
+| -expr | Unary Minus (For reversing the sign of the expression) |
+| * | Multiplication |
+| / | Division (For dividing two operands and give output in double) |
+| ~/ | Division (For dividing two operands and give output in integer) |
+| % | Modulus |
+| ++ | Increment |
+| -- | Decrement |
 
-1. Introduction and Overview
-2. Installation & Configuration
-3. Basic Dart Program
-4. Variable
-5. Operators
-6. Datatypes
-7. Conditions
-8. Loops
-9. Functions
-10. Collections
-11. OOP
-12. Null Safety
-13. Asynchronous Programming
-14. Examples
-15. Exam
+## Increment and Decrement
 
-## Best tutorial websites
+| Operator Symbol | Operator Name |
+| --------------- | ------------- |
+| ++ | Increment |
+| -- | Decrement |
 
-- <https://dart.dev/tutorials>
-- <https://www.tutorialspoint.com/dart_programming/>
-- <https://www.geeksforgeeks.org/dart-tutorial/>
+Use case of prefix :
 
-Thanks.
+- ++variable
+- --variable
+
+Use case of postfix :
+
+- variavle++
+- variable--
+
+## Assignment
+
+| Operator Symbol | Operator Name |
+| --------------- | ------------- |
+| = | Equal |
+| += | Plus equal |
+| -= | Minus equal |
+| *= | Asterisk equal |
+| /= | Division equal |
+
+## Relational
+
+| Operator Symbol | Operator Name |
+| --------------- | ------------- |
+| > | Greater than |
+| < | Less than |
+| >= | Greater than or equal to |
+| <= | Less than or equal to |
+| == | Equal to |
+| != | Not equal to |
+
+## Logical
+
+| Operator Symbol | Operator Name |
+| --------------- | ------------- |
+| && | and |
+| || | or |
+| ! | not |
+
+## Type Test Operators
+
+| Operator Symbol | Operator Name |
+| --------------- | ------------- |
+| is | is (Gives boolean value true if the object has a specific type) |
+| is! | is not (Gives boolean value false if the object has a specific type) |
