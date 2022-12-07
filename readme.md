@@ -20,7 +20,7 @@
 ## Some rules + naming convention
 
 - Variable names are case sensitive (a and A are different).
-- Variable name can consist of letters and alphabets.
+- Variable name can consist of letters/number and alphabets.
 - Variable name cannot start with number.
 - Keywords are not allowed to use as a variable name.
 - Blank spaces are not allowed in a variable name.
@@ -33,3 +33,5 @@
 - Class/Instance level const variable is not possible
 
 ## Home work
+1. Print all type of variables with different naming convention as per our class 
+2. basic calculation from user input
