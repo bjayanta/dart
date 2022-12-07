@@ -1,33 +1,40 @@
-# Dart Programming Language
+# Comments
 
-## Useful links
+Comments are the set of statements that are ignored by the dart compiler during program execution. They are only used to explain the code to humans so the user can understand it better.
 
-- Dart official website [https://dart.dev/](https://dart.dev/).
-- Online practice pad [DartPad](https://dartpad.dev/?).
-- Download "Dart SDK" from [https://dart.dev/get-dart/archive](https://dart.dev/get-dart/archive).
+Types Of Comments:
 
-## Dart Syllabus
+- Single-Line Comment
 
-1. Introduction and Overview
-2. Installation & Configuration
-3. Basic Dart Program
-4. Variable
-5. Operators
-6. Datatypes
-7. Conditions
-8. Loops
-9. Functions
-10. Collections
-11. OOP
-12. Null Safety
-13. Asynchronous Programming
-14. Examples
-15. Exam
+```dart
+void main() {
+  // This is single-line comment.
+  // Code goes to here
+  ...
+}
+```
 
-## Best tutorial websites
+- Multi-Line Comment
 
-- <https://dart.dev/tutorials>
-- <https://www.tutorialspoint.com/dart_programming/>
-- <https://www.geeksforgeeks.org/dart-tutorial/>
+```dart
+void main() {
+  /*
+  This is a multi-line comment.
+  This is another line.
+  ToDo
+  */
+  ...
+}
+```
 
-Thanks.
+- Documentation Comment
+
+```dart
+/// Deletes the file at [path].
+///
+/// Throws an [IOError] if the file could not be found. Throws a
+/// [PermissionError] if the file is present but could not be deleted.
+void delete(String path) {
+  ...
+}
+```
