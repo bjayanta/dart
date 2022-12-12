@@ -1,16 +1,10 @@
-import 'dart:io';
+void main() {
+  // operators & operands
 
-void main(List<String> args) {
   var a = 10;
-  // var b = 20;
-  // var c = a / b;
+  var b = 20;
 
-  // print(a++);
+  var c = a + b;
 
-  print("Enter your name: ");
-  String name = stdin.readLineSync()!;
-  print("My name is: " + name);
-
-  a++;
-  print(a);
+  print(c);
 }
