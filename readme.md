@@ -8,21 +8,23 @@
 
 ## Dart Syllabus
 
-1. Introduction and Overview
-2. Installation & Configuration
-3. Basic Dart Program
-4. Variable
-5. Operators
-6. Datatypes
-7. Conditions
-8. Loops
-9. Functions
-10. Collections
-11. OOP
-12. Null Safety
-13. Asynchronous Programming
-14. Examples
-15. Exam
+- Introduction and Overview
+- Installation & Configuration
+- Basic Dart Program
+- Variable
+- Operators
+- Comments
+- User input
+- Datatypes
+- Conditions
+- Loops
+- Functions
+- Collections
+- OOP
+- Null Safety
+- Asynchronous Programming
+- Examples
+- Exam
 
 ## Best tutorial websites
 
