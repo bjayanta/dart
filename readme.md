@@ -4,8 +4,8 @@
 - Operands(represents the data) & Operator(represents how the operands will be processed to produce a value)
 - Types Of Operators :
   - Arithmetic
-  - Increment and Decrement
   - Assignment
+  - Increment and Decrement
   - Relational
   - Logical
   - Type Test Operators
@@ -24,6 +24,16 @@
 | ++ | Increment |
 | -- | Decrement |
 
+## Assignment
+
+| Operator Symbol | Operator Name |
+| --------------- | ------------- |
+| = | Equal |
+| += | Plus equal |
+| -= | Minus equal |
+| *= | Asterisk equal |
+| /= | Division equal |
+
 ## Increment and Decrement
 
 | Operator Symbol | Operator Name |
@@ -40,16 +50,6 @@ Use case of postfix :
 
 - variavle++
 - variable--
-
-## Assignment
-
-| Operator Symbol | Operator Name |
-| --------------- | ------------- |
-| = | Equal |
-| += | Plus equal |
-| -= | Minus equal |
-| *= | Asterisk equal |
-| /= | Division equal |
 
 ## Relational
 
@@ -76,3 +76,16 @@ Use case of postfix :
 | --------------- | ------------- |
 | is | is (Gives boolean value true if the object has a specific type) |
 | is! | is not (Gives boolean value false if the object has a specific type) |
+
+## User input
+
+> import 'dart:io'; \
+> < datatype >? < variable name > = std.readLineSync()!;
+
+_What does question mark do in Dart?_
+
+If you want a variable of type String to accept any string or the value null, give the variable a nullable type by adding a question mark ( ? ) after the type name. For example, a variable of type String? can contain a string, or it can be null.
+
+_What does exclamation mark do in Dart?_
+
+If you're sure that an expression with a nullable type isn't null, you can use a null assertion operator ( ! ) to make Dart treat it as non-nullable. By adding ! just after the expression, you tell Dart that the value won't be null, and that it's safe to assign it to a non-nullable variable.
