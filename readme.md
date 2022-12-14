@@ -165,3 +165,13 @@ void main() {
    print(a);
 }
 ```
+
+## Home work
+
+- Practice all the type 
+    - Number
+    - String
+    - Boolean
+- Get user input and convert to:
+    - Integer to String
+    - String to Integer
