@@ -1,33 +1,51 @@
-# Dart Programming Language
+# User input
 
-## Useful links
+Import dart Standart Input Output Library:
 
-- Dart official website [https://dart.dev/](https://dart.dev/).
-- Online practice pad [DartPad](https://dartpad.dev/?).
-- Download "Dart SDK" from [https://dart.dev/get-dart/archive](https://dart.dev/get-dart/archive).
+```dart
+import 'dart:io';
+```
 
-## Dart Syllabus
+## String Input
 
-1. Introduction and Overview
-2. Installation & Configuration
-3. Basic Dart Program
-4. Variable
-5. Operators
-6. Datatypes
-7. Conditions
-8. Loops
-9. Functions
-10. Collections
-11. OOP
-12. Null Safety
-13. Asynchronous Programming
-14. Examples
-15. Exam
+```dart
+void main() {
+  print("Enter your name:");
+  String? name  = stdin.readLineSync();
+  print("My name is ${name}");
+}
+```
 
-## Best tutorial websites
+## Integer Input
 
-- <https://dart.dev/tutorials>
-- <https://www.tutorialspoint.com/dart_programming/>
-- <https://www.geeksforgeeks.org/dart-tutorial/>
+```dart
+void main() {
+  print("Enter your age:");
+  int? age = int.parse(stdin.readLineSync()!);
+  print("I am ${number} years old.");
+}
+```
 
-Thanks.
+## Floating Value Input
+
+```dart
+void main() {
+  print("Enter your bory weight(decimal point):");
+  double weight = double.parse(stdin.readLineSync()!);
+  print("My weight is $number kg.");
+}
+```
+
+> import 'dart:io'; \
+> < datatype >? < variable name > = std.readLineSync()!;
+
+_What does question(?) mark do in Dart?_
+
+If you want a variable of type String to accept any string or the value null, give the variable a nullable type by adding a question mark ( ? ) after the type name. For example, a variable of type String? can contain a string, or it can be null.
+
+_What does exclamation(!) mark do in Dart?_
+
+If you're sure that an expression with a nullable type isn't null, you can use a null assertion operator ( ! ) to make Dart treat it as non-nullable. By adding ! just after the expression, you tell Dart that the value won't be null, and that it's safe to assign it to a non-nullable variable.
+
+## Home work
+
