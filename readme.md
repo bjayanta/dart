@@ -166,12 +166,20 @@ void main() {
 }
 ```
 
+Null Typed:
+
 ## Home work
 
 - Practice all the type 
     - Number
     - String
     - Boolean
+    - List
+    - Set
+    - Map
+    - Dynamic
+    - Null
 - Get user input and convert to:
     - Integer to String
     - String to Integer
+- Make a 2nd dimention list & get all the items from the list
