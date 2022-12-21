@@ -111,3 +111,8 @@ void main() {
 
 - Write a program in Dart to remove all whitespaces from String.
 - Write a dart program to convert String to int.
+- Get 2 number input from user
+    - Execute Sum operation
+    - Execute Sub operation
+    - Execute Multi operation
+    - Execute Divi operation
