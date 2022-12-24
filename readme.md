@@ -2,10 +2,42 @@
 
 Condition controll statements:
 
+- Assert
 - If Condition
 - If-else Condition
 - If-else-if Condition
 - Switch case
+- Ternary Operator
+
+## Assert
+
+Syntax:
+
+> assert(condition);
+
+or,
+
+> assert(condition, "Your custom message");
+
+Example:
+
+```dart
+void main() { 
+    var age = 22;
+    assert(age!=22);
+}
+```
+
+```dart
+void main() { 
+    var age = 22;
+    assert(age!=22, "Age must be 22");
+}
+```
+
+NB. Need to enable assert mode:
+
+> dart --enable-asserts file_name.dart
 
 ## If Condition
 
@@ -114,6 +146,33 @@ void main() {
             print("Sorry I am not familiar with such weather.");
             break;
     }
+}
+```
+
+## Ternary Operator
+
+Syntax:
+
+> condition ? exprIfTrue : exprIfFalse
+
+example:
+
+```dart
+void main() {
+    int num1 = 10;
+    int num2 = 15;
+    int max = (num1 > num2) ? num1 : num2;
+
+    print("The greatest number is $max");
+}
+```
+
+```dart
+void main() {
+    var selection = 2;
+    var output = (selection == 2) ? 'Apple' : 'Banana';
+
+    print(output);
 }
 ```
 
