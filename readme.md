@@ -1,35 +1,120 @@
-# Dart Programming Language
+# Loop
 
-## Useful links
+Loop controll statements:
 
-- Dart official website [https://dart.dev/](https://dart.dev/).
-- Online practice pad [DartPad](https://dartpad.dev/?).
-- Download "Dart SDK" from [https://dart.dev/get-dart/archive](https://dart.dev/get-dart/archive).
+- For Loop
+- For Each Loop
+- While Loop
+- Do While Loop
 
-## Dart Syllabus
+- Break
+- Continue
 
-- Introduction and Overview
-- Installation & Configuration
-- Basic Dart Program
-- Variable
-- Operators
-- Comments
-- User input
-- Datatypes
-- Conditions
-- Loops
-- Functions
-- Collections
-- OOP
-- Null Safety
-- Asynchronous Programming
-- Examples
-- Exam
+## For loop
 
-## Best tutorial websites
+Syntax:
 
-- <https://dart.dev/tutorials>
-- <https://www.tutorialspoint.com/dart_programming/>
-- <https://www.geeksforgeeks.org/dart-tutorial/>
+```dart
+for(initialization; condition; increment/decrement){
+    statements;
+}
+```
 
-Thanks.
+Example:
+
+```dart
+void main() {
+    for (int i = 1; i <= 10; i++) {
+        print(i);
+    }
+}
+```
+
+## For Each Loop
+
+Syntax:
+
+```dart
+collection.forEach(void f(value));
+```
+
+Example:
+
+```dart
+void main(){
+  List<String> footballplayers=['Ronaldo','Messi','Neymar','Hazard'];
+  footballplayers.forEach( (names)=>print(names));
+}
+```
+
+```dart
+void main(){
+    List<int> numbers = [1,2,3,4,5];
+    int total = 0;
+
+    numbers.forEach( (num)=>total= total+ num);
+
+    print("Total is $total.");
+    double avg = total / (numbers.length);
+    print("Average is $avg.");
+}
+```
+
+```dart
+void main(){
+    List<String> footballplayers=['Ronaldo','Messi','Neymar','Hazard'];
+    footballplayers.asMap().forEach((index, value) => print("$value index is $index"));
+}
+```
+
+## While Loop
+
+Syntax:
+
+```dart
+while(condition){  
+    //statement(s);  
+    // Increment (++) or Decrement (--) Operation;  
+}
+```
+
+Example:
+
+```dart
+void main() {
+    int i = 10;
+
+    while (i >= 1) {
+        print(i);
+        i--;
+    }
+}
+```
+
+## Do While Loop
+
+Syntax:
+
+```dart
+do {
+    statement1;
+    statement2;
+    .
+    .
+    .
+    statementN;
+} while(condition);
+```
+
+Example:
+
+```dart
+void main() {
+    int i = 1;
+
+    do {
+        print(i);
+        i++;
+    } while (i <= 10);
+}
+```
