@@ -1,12 +1,24 @@
 void main(List<String> args) {
-  int a = 100; // init
+  // exit controll loop
+  // syntax:
+  // initialization;
+  // do {
+  // body of the loop
+  // increment or, decrement
+  // } while(condition);
 
-  // do...while is a exit-control loop
+  // print 1 - 10
+  // int i = 1; // initialization;
+  // do {
+  //   print(i); // body of the loop
+  //   i++; // increment or, decrement
+  // } while (i <= 10); // condition
+
+  // make a sequence with 3 interval
+  int start = 1, end = 30, gap = 3;
   do {
-    // body
-    print(a);
-
-    // increment or, decrement
-    a++;
-  } while (a <= 50); // condition
+    print(start);
+    // start++; // start = start + 1;
+    start = start + 3; // start += 3;
+  } while (start <= end);
 }

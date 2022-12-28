@@ -1,41 +1,32 @@
 void main(List<String> args) {
-  // initialization
-  // condition
-  // increment or, decrement
+  // entry controll loop
+  // syntax:
+  // for (initialization; condition; increment or, decrement) {
   // body of the loop
-
-  // var i = 0; // initialization
-  // for (var i = 0; i <= 100; i++) {
-  //   // body of the loop
-  //   // print(i);
-
-  //   if (i.isOdd) {
-  //     print(i);
-  //   }
   // }
+
+  // for (int i = 10; i >= 1; i--) {
+  //   // print("$i I love dart.");
+  //   print(i);
+  // }
+
+  // even number programm
+  for (int i = 10; i >= 1; i--) {
+    if (i % 2 == 0) {
+      print(i);
+    }
+  }
 
   /*
-  HW
+  HW:
   -------------------------
-  *
-  * *
-  * * *
-  * * * *
-  * * * * *
-  */
-  // String stars = "";
-  // for (int row = 0; row < 5; row++) {
-  //   // row
-  //   for (int column = 0; column < 5; column++) {
-  //     // column
-  //     stars += "* ";
-  //   }
-  //   print(stars);
-  //   stars = "";
-  // }
+  a = [1, 10, -5, 20, 26]
+  a[i] * a[j] = x
 
-  // infinity loop
-  for (int m = 0; true; m++) {
-    print(m);
-  }
+  result should be:
+  a[0] * a[1] = 1 * 10 = 10
+  a[1] * a[2] = 10 * -5 = -50
+  ...
+  ....
+  */
 }
