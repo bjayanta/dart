@@ -7,6 +7,8 @@ Loop controll statements:
 - While Loop
 - Do While Loop
 
+Break and Continue statement:
+
 - Break
 - Continue
 
@@ -118,3 +120,54 @@ void main() {
     } while (i <= 10);
 }
 ```
+
+## Break Statement
+
+Syntax:
+
+```dart
+break;
+```
+
+Example:
+
+```dart
+void main() {
+    for (int i = 0; i < 10; i++) {
+        if (i == 4) {
+            break;
+        }
+
+        print(i);
+    }
+}
+```
+
+## Continue Statement
+
+Syntax:
+
+```dart
+continue;
+```
+
+Example:
+
+```dart
+void main() {
+    for (int i = 0; i < 10; i++) {
+        if (i == 4) {
+            continue;
+        }
+
+        print(i);
+    }
+}
+```
+
+## Home Work
+
+- User break in negative for loop
+- Use break statement in while loop
+- Use break in Switch case statement
+
