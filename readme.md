@@ -1,35 +1,60 @@
-# Dart Programming Language
+# Function
 
-## Useful links
+Functions are the block of code that performs a specific task. They are created when some statements are repeatedly occurring in the program. The function helps reusability of the code in the program.
 
-- Dart official website [https://dart.dev/](https://dart.dev/).
-- Online practice pad [DartPad](https://dartpad.dev/?).
-- Download "Dart SDK" from [https://dart.dev/get-dart/archive](https://dart.dev/get-dart/archive).
+**The main objective of the function is DRY(Don’t Repeat Yourself).**
 
-## Dart Syllabus
+Advantage Of Function:
 
-- Introduction and Overview
-- Installation & Configuration
-- Basic Dart Program
-- Variable
-- Operators
-- Comments
-- User input
-- Datatypes
-- Conditions
-- Loops
-- Functions
-- Collections
-- OOP
-- Null Safety
-- Asynchronous Programming
-- Examples
-- Exam
+- Avoid Code Repetition
+- Easy to divide the complex program into smaller parts
+- Helps to write a clean code
 
-## Best tutorial websites
+Topics:
 
-- <https://dart.dev/tutorials>
-- <https://www.tutorialspoint.com/dart_programming/>
-- <https://www.geeksforgeeks.org/dart-tutorial/>
+- Function
+- Function Parameter
+- Anonymous Function
+- Arrow Function
+- Scope
+- Math
 
-Thanks.
+Syntax:
+
+```dart
+return_type function_name(parameter_1, parameter_2, ...) {
+    // function body
+}
+```
+
+Example:
+
+```dart
+// Writing function outside main function.
+void display(){
+    print("This is MaxSOP. And we love Dart.");
+}
+
+// This is our main function.
+void main(){
+    display();
+}
+```
+
+Example:
+
+```dart
+void sum(int num1, int num2){
+    int sum = num1 + num2;
+    print("The sum is $sum");
+}
+
+void main(){
+    sum(10, 20);
+}
+```
+
+Home Work:
+
+- Function that find simple interest
+- Basic calculation programm
