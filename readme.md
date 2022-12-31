@@ -8,18 +8,19 @@
 
 ## Dart Syllabus
 
-- Introduction and Overview
-- Installation & Configuration
-- Basic Dart Program
-- Variable
-- Operators
-- Comments
-- User input
-- Datatypes
-- Conditions
-- Loops
-- Exception Handling
-- Functions
+01. Introduction and Overview
+02. Installation & Configuration
+03. Basic Dart Program
+04. Variable
+05. Comments
+06. Operators
+07. User input
+08. Datatypes
+09. Conditions
+10. Loops
+11. Exception Handling
+12. Functions
+
 - Collections
 - OOP
 - Null Safety
