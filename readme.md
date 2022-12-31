@@ -18,6 +18,7 @@
 - Datatypes
 - Conditions
 - Loops
+- Exception Handling
 - Functions
 - Collections
 - OOP
