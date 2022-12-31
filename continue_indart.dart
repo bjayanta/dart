@@ -1,14 +1,9 @@
 void main(List<String> args) {
-  var list = ["JB", "Nishad", "Tripti", "Iqbal", "Fahim"];
-
-  for (var i = 0; i < list.length; i++) {
-    if (list[i] == "Tripti") {
-      // break;
+  for (int i = 0; i < 10; i++) {
+    if (i == 5 || i == 6) {
       continue;
     }
 
-    print(list[i]);
+    print(i);
   }
-
-  // code
 }

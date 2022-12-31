@@ -1,14 +1,9 @@
 void main(List<String> args) {
-  int a = 1;
-  int b = 5;
-
-  for (a; a <= 10; a++) {
-    print(a);
-
-    if (a == b) {
+  for (int i = 0; i < 10; i++) {
+    if (i == 5) {
       break;
     }
-  }
 
-  // code
+    print(i);
+  }
 }
