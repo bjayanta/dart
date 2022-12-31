@@ -58,3 +58,10 @@ Home Work:
 
 - Function that find simple interest
 - Basic calculation programm
+    - Summation
+    - Substraction 
+    - Multiplication 
+    - Division
+    - Modules
+    - Even number
+    - Odd number
