@@ -13,10 +13,18 @@ Advantage Of Function:
 Topics:
 
 - Function
+  - Return Statement
 - Function Parameter
+  - Positional Parameter
+  - Optional Parameter
+  - Default Value On Positional Parameter
+  - Named Parameter
+  - Required In Named Parameter
 - Anonymous Function
 - Arrow Function
 - Scope
+  - Global scope
+  - Lexical scope
 - Math
 
 Syntax:
@@ -58,10 +66,10 @@ Home Work:
 
 - Function that find simple interest
 - Basic calculation programm
-    - Summation
-    - Substraction 
-    - Multiplication 
-    - Division
-    - Modules
-    - Even number
-    - Odd number
+  - Summation
+  - Substraction
+  - Multiplication
+  - Division
+  - Modules
+  - Even number
+  - Odd number
