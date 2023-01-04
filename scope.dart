@@ -1,3 +1,7 @@
+// Scope
+// Global scope
+// Lexical scope
+
 // global scope
 var fahimVar = 10;
 
