@@ -74,7 +74,6 @@ Home Work:
 - Find the area of a circle using function.
 - Make a function to print even and odd numbers between intervals using function.
 - Make a function that find the number is prime or not.
-- Implements the Pythagorean theorem using function.
 - Reverse a string.
 
 - Math
@@ -83,3 +82,6 @@ Home Work:
   - Generate random number between any number range.
   - Generate a list of 5 random numbers between 500 to 1000
   - Creating a random number guessing game.
+
+- Implements the Pythagorean theorem using function.
+![Pythagorean Theorem](https://github.com/bjayanta/dart/blob/13_function/pythagorean_theorem.png?raw=true)
