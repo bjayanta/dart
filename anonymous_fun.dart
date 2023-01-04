@@ -1,23 +1,31 @@
 // Syntax:
-// (parameters){
+// (parameters) {
 //  Statements
 // }
 
 void main(List<String> args) {
-  // var names = ["jayanta", "tripti", "sw", "iqbal", "fahim", "nahin"]
-  //     .map((e) => myFunction(e))
-  //     .toList();
+  List<String> people = [
+    "Jayanta",
+    "Joy",
+    "Abir",
+    "Trishna",
+    "Fahim",
+    "Sw",
+    "Tripti"
+  ];
 
-  // var names = ["jayanta", "tripti", "sw", "iqbal", "fahim", "nahin"].map((e) {
-  //   return e.toUpperCase();
-  // }).toList();
+  // print(people);
 
-  var names = ["jayanta", "tripti", "sw", "iqbal", "fahim", "nahin"]
-      .map((e) => e.toUpperCase())
-      .toList();
-  print(names);
+  // For each
+  // people.forEach((el) {
+  //   print(el.toUpperCase());
+  // });
+
+  // map
+  // List list = people.map((el) => el.toUpperCase()).toList();
+  List list = people.map((el) {
+    return el.toUpperCase();
+  }).toList();
+
+  print(list);
 }
-
-// String myFunction(String name) {
-//   return name.toUpperCase();
-// }
