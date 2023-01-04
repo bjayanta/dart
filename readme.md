@@ -1,5 +1,7 @@
 # Dart Programming Language
 
+Theory, Examples & Home Work.
+
 ## Useful links
 
 - Dart official website [https://dart.dev/](https://dart.dev/).
@@ -12,21 +14,21 @@
 02. Installation & Configuration
 03. Basic Dart Program
 04. Variable
-05. Comments
-06. Operators
-07. User input
-08. Datatypes
-09. Conditions
-10. Loops
-11. Exception Handling
-12. Functions
+05. Operators
+06. Datatypes
+07. Comments
+08. User input
+09. String
+10. Conditions
+11. Loops
+12. Exception Handling
+13. Functions
+14. Collections
 
-- Collections
 - OOP
 - Null Safety
 - Asynchronous Programming
-- Examples
-- Exam
+- Exam + Certificate
 
 ## Best tutorial websites
 
