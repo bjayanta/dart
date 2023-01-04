@@ -81,4 +81,5 @@ Home Work:
   - Calculate power of a certain number. For e.g 7^3=343
   - Get random number 1 - 10
   - Generate random number between any number range.
+  - Generate a list of 5 random numbers between 500 to 1000
   - Creating a random number guessing game.
