@@ -64,12 +64,21 @@ void main(){
 
 Home Work:
 
-- Function that find simple interest
 - Basic calculation programm
   - Summation
   - Substraction
   - Multiplication
   - Division
   - Modules
-  - Even number
-  - Odd number
+- Find simple interest from given amount.
+- Find the area of a circle using function.
+- Make a function to print even and odd numbers between intervals using function.
+- Make a function that find the number is prime or not.
+- Implements the Pythagorean theorem using function.
+- Reverse a string.
+
+- Math
+  - Calculate power of a certain number. For e.g 7^3=343
+  - Get random number 1 - 10
+  - Generate random number between any number range.
+  - Creating a random number guessing game.
