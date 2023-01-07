@@ -225,6 +225,4 @@ void main(){
 
 - Multiply all value by 2 of all list elements.
 - Check index exists in a List.
-- Createa list where the values saticfide the condition
-  - New list is [115, 86, 50, 213, 96, 104, 13, 250, 140]
-  - 150 > Value > 80 and divisible by 2
+- Create a list from [115, 86, 50, 213, 96, 104, 13, 250, 140], where the values of the above list saticfide the conditions. Conditions: 150 > Value > 80 and divisible by 2
