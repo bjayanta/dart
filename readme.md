@@ -171,6 +171,9 @@ void main(){
     // removing list range
     list.removeRange(0, 3);
     print(list);
+
+    // check value exists in a list
+    print(list.contains(21));
 }
 ```
 
