@@ -224,3 +224,4 @@ void main(){
 ## Home Work
 
 - Multiply all value by 2 of all list elements.
+- Check index exists in a List.
