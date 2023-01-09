@@ -182,7 +182,7 @@ void main() {
     print("All keys of Map: ${expenses.keys}");
     print("All values of Map: ${expenses.values}");
     print("Is Map empty: ${expenses.isEmpty}");
-    print("Is Map empty: ${expenses.isEmpty}");
+    print("Is Map empty: ${expenses.isNotEmpty}");
     print("Length of map is: ${expenses.length}");
 }
 ```
