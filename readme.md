@@ -11,9 +11,15 @@
   - Private fields
   - Getters & Setters
 - methods
+  - What is method? Why we need method?
   - How to define?
-  - Constructors, Default Constructor, Parameterized Constructor, Named Constructor & Constant Constructor
-  - This keyword
+  - **this** - keyword
+- Constructors
+  - What is Constructors?
+  - Default Constructor
+  - Parameterized Constructor
+  - Named Constructor
+  - Constant Constructor
 - Encapsulation
 - Getter and Setter
 - Inheritance
