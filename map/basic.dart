@@ -1,3 +1,10 @@
+// - Basic
+//   - What is Map? And why we need Map?
+//   - What is the syntax of a Map?
+//   - How to create a Map?
+//     - Empty
+//     - With value
+
 void main(List<String> args) {
   // Syntex:
   // Map<data-type, data-type> variable_name = {

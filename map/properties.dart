@@ -1,3 +1,9 @@
+// Properties
+// get all keys
+// get all values
+// Is Map empty
+// Length
+
 void main(List<String> args) {
   Map<String, num> numbers = {"a": 10, "b": 20, "c": 30, "d": 40, "e": 40};
   print(numbers);

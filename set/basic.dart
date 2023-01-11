@@ -2,6 +2,7 @@ void main(List<String> args) {
   // Syntax:
   // Set<variable_type> variable_name = {};
 
+  // How to create a Set?
   // empty set
   // Set<String> names = {};
   // Set persons = {};
