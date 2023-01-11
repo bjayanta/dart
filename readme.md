@@ -1,39 +1,32 @@
-# Dart Programming Language
+# Object-Oriented Programming
 
-Theory, Examples & Home Work.
-
-## Useful links
-
-- Dart official website [https://dart.dev/](https://dart.dev/).
-- Online practice pad [DartPad](https://dartpad.dev/?).
-- Download "Dart SDK" from [https://dart.dev/get-dart/archive](https://dart.dev/get-dart/archive).
-
-## Dart Syllabus
-
-01. Introduction and Overview
-02. Installation & Configuration
-03. Basic Dart Program
-04. Variable
-05. Operators
-06. Datatypes
-07. Comments
-08. User input
-09. String
-10. Conditions
-11. Loops
-12. Exception Handling
-13. Functions
-14. Collections
-
-- OOP
-- Null Safety
-- Asynchronous Programming
-- Exam + Certificate
-
-## Best tutorial websites
-
-- <https://dart.dev/tutorials>
-- <https://www.tutorialspoint.com/dart_programming/>
-- <https://www.geeksforgeeks.org/dart-tutorial/>
-
-Thanks.
+- Basic
+  - What is Object Oriented Programming(OOP)
+  - Why we need OOP
+- Classes & Objects
+- Properties
+  - Instance variables As Fields
+  - Initialization & Declare
+  - Final, Late, Static & Const Keywords
+  - Private fields
+  - Getters & Setters
+- methods
+  - How to define?
+  - Constructors, Default Constructor, Parameterized Constructor, Named Constructor & Constant Constructor
+  - This keyword
+- Encapsulation
+- Getter and Setter
+- Inheritance
+  - Inheritance concept is achieved by using the Extends keyword
+  - Inheritance of Constructors
+  - Super Keyword
+- Polymorphism
+  - @overriding methods
+  - @overloading methods (optional parameters)
+- Static
+- Enum
+- Abstract
+- Interface
+- Mixin
+- Factory Constructor
+- Generics
