@@ -3,6 +3,7 @@
 - Basic
   - What is Object Oriented Programming(OOP)
   - Why we need OOP
+  - Syntax
 - Classes & Objects
 - Properties
   - Instance variables As Fields
