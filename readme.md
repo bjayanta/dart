@@ -24,8 +24,8 @@ Theory, Examples & Home Work.
 12. Exception Handling
 13. Functions
 14. Collections
+15. OOP
 
-- OOP
 - Null Safety
 - Asynchronous Programming
 - Exam + Certificate
