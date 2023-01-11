@@ -1,3 +1,10 @@
+// Properties of Set
+// first
+// last
+// isEmpty
+// isNotEmpty
+// length
+
 void main(List<String> args) {
   Set<String> fruits = {"Apple", "Orange", "Mango", "Banana"};
   print(fruits);

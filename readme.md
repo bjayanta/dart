@@ -40,218 +40,38 @@ Topics:
 
 ## Set
 
-Syntax:
-
-```dart
-Set <variable_type> variable_name = {};
-```
-
-How to create a Set?
-
-```dart
-void main(){
-    Set<String> fruits = {"Apple", "Orange", "Mango"};
-    print(fruits);
-}
-```
-
-Properties
-
-```dart
-void main() {
-    // declaring fruits as Set
-    Set<String> fruits = {"Apple", "Orange", "Mango", "Banana"};
-
-    // using different properties of Set
-    print("First Value is ${fruits.first}");
-    print("Last Value is ${fruits.last}");
-    print("Is fruits empty? ${fruits.isEmpty}");
-    print("Is fruits not empty? ${fruits.isNotEmpty}");
-    print("The length of fruits is ${fruits.length}");
-}
-```
-
-Methods
-
-```dart
-void main() {
-    // declaring fruits as Set
-    Set<String> fruits = {"Apple", "Orange", "Mango", "Banana"};
-
-    // Check The Available Value
-    Set<String> fruits = {"Apple", "Orange", "Mango"};
-    print(fruits.contains("Mango"));
-    print(fruits.contains("Lemon"));
-
-    // Element At Method
-    Set<String> days = {"Sunday", "Monday", "Tuesday"};
-    print(days.elementAt(2));
-
-    // Add Items
-    fruits.add("Lemon");
-    fruits.add("Grape");
-    print("After Adding Lemon and Grape: $fruits");
-    
-    // Remove Items
-    fruits.remove("Apple");
-    print("After Removing Apple: $fruits");
-
-    // Adding Multiple Elements
-    Set<int> numbers = {10, 20, 30};
-    numbers.addAll([40,50]);
-    print("After adding 40 and 50: $numbers");
-
-    // To clear all items
-    fruits.clear();
-    print(fruits);
-
-    // Difference In Set
-    Set<String> fruits1 = {"Apple", "Orange", "Mango"};
-    Set<String> fruits2 = {"Apple", "Grapes", "Banana"};
-    final differenceSet = fruits1.difference(fruits2);
-    print(differenceSet);
-
-
-}
-```
-
-Loop on Set:
-
-```dart
-void main(){
-    Set<String> fruits = {"Apple", "Orange", "Mango"};
-
-    for(String fruit in fruits){
-        print(fruit);
-    }
-}
-```
-
-Intersection
-
-```dart
-void main() {
-    Set<String> fruits1 = {"Apple", "Orange", "Mango"};
-    Set<String> fruits2 = {"Apple", "Grapes", "Banana"};
-
-    final intersectionSet = fruits1.intersection(fruits2);
-    print(intersectionSet);
-}
-```
+- Basic
+  - What is Set? And why we need Set?
+  - What is the syntax of a Set?
+  - How to create a Set?
+    - Empty
+    - With value
+- Properties
+- Methods
+- Loop on Set
+- Intersection
 
 ## Map
 
-How To Create Map?
+- Basic
+  - What is Map? And why we need Map?
+  - What is the syntax of a Map?
+  - How to create a Map?
+    - Empty
+    - With value
+- Access Value From Key
+- Adding and Updating an element
+- Properties
+- Methods
+  - Convert Maps Keys & Values To List
+    - Without List
+    - With List
+  - Check Map Contains Specific Key/Value Or Not?
+    - For Keys
+    - For Values
+    - Removing Items
 
-```dart
-void main(){
-    Map<String, String> countryCapital = {
-        'USA': 'Washington, D.C.',
-        'India': 'New Delhi',
-        'China': 'Beijing'
-    };
-
-    print(countryCapital);
-}
-```
-
-Access Value From Key:
-
-```dart
-void main(){
-    Map<String, String> countryCapital = {
-        'USA': 'Washington, D.C.',
-        'India': 'New Delhi',
-        'China': 'Beijing'
-    };
-
-    print(countryCapital["USA"]);
-}
-```
-
-Map Properties:
-
-```dart
-void main() {
-    Map<String, double> expenses = {
-        'sun': 3000.0,
-        'mon': 3000.0,
-        'tue': 3234.0,
-    };
-
-    print("All keys of Map: ${expenses.keys}");
-    print("All values of Map: ${expenses.values}");
-    print("Is Map empty: ${expenses.isEmpty}");
-    print("Is Map empty: ${expenses.isNotEmpty}");
-    print("Length of map is: ${expenses.length}");
-}
-```
-
-Adding Element:
-
-```dart
-void main(){
-    Map<String, String> countryCapital = {
-        'USA': 'Washington, D.C.',
-        'India': 'New Delhi',
-        'China': 'Beijing'
-    };
-
-    // Adding New Item
-    countryCapital['Japan'] = 'Tokio';
-    print(countryCapital);
-}
-```
-
-Updating An Element
-
-```dart
-void main(){
-    Map<String, String> countryCapital = {
-        'USA': 'Nothing',
-        'India': 'New Delhi',
-        'China': 'Beijing'
-    };
-
-    // Updating Item
-    countryCapital['USA'] = 'Washington, D.C.';
-    print(countryCapital);
-}
-```
-
-Methods
-
-```dart
-void main(){
-    Map<String, double> expenses = {
-        'sun': 3000.0,
-        'mon': 3000.0,
-        'tue': 3234.0,
-    };
-
-    // Convert Maps Keys & Values To List
-    // Without List
-    print("All keys of Map: ${expenses.keys}");
-    print("All values of Map: ${expenses.values}");
-    // With List
-    print("All keys of Map with List: ${expenses.keys.toList()}");
-    print("All values of Map with List: ${expenses.values.toList()}");
-
-    // Check Map Contains Specific Key/Value Or Not?
-    // For Keys
-    print("Does Map contain key sun: ${expenses.containsKey("sun")}");
-    print("Does Map contain key abc: ${expenses.containsKey("abc")}");
-    // For Values
-    print("Does Map contain value 3000.0: ${expenses.containsValue(3000.0)}");
-    print("Does Map contain value 100.0: ${expenses.containsValue(100.0)}");
-
-    // Removing Items
-    expenses.remove("mon");
-    print(expenses);
-}
-```
-
-Looping Over Element
+Looping over element:
 
 ```dart
 void main(){
