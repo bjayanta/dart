@@ -5,22 +5,20 @@
   - Why we need OOP/Advantages?
   - Features
 - Classes & Objects
+  - Properties
+    - Instance variables As Fields
+    - Initialization & Declare
+    - Private fields
+  - methods
+    - What is method? Why we need method?
+    - How to define?
+    - **this** - keyword
 - Constructors
   - What is Constructors?
   - Default Constructor
   - Parameterized Constructor
   - Named Constructor
   - Constant Constructor
-- Properties
-  - Instance variables As Fields
-  - Initialization & Declare
-  - Final, Late, Static & Const Keywords
-  - Private fields
-  - Getters & Setters
-- methods
-  - What is method? Why we need method?
-  - How to define?
-  - **this** - keyword
 - Encapsulation
 - Getter and Setter
 - Inheritance
@@ -30,8 +28,8 @@
 - Polymorphism
   - @overriding methods
   - @overloading methods (optional parameters)
-- Static
 - Enum
+- Final, Late, Static & Const Keywords
 - Abstract
 - Interface
 - Mixin
