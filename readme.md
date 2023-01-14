@@ -2,9 +2,15 @@
 
 - Basic
   - What is Object Oriented Programming(OOP)
-  - Why we need OOP
-  - Syntax
+  - Why we need OOP/Advantages?
+  - Features
 - Classes & Objects
+- Constructors
+  - What is Constructors?
+  - Default Constructor
+  - Parameterized Constructor
+  - Named Constructor
+  - Constant Constructor
 - Properties
   - Instance variables As Fields
   - Initialization & Declare
@@ -15,12 +21,6 @@
   - What is method? Why we need method?
   - How to define?
   - **this** - keyword
-- Constructors
-  - What is Constructors?
-  - Default Constructor
-  - Parameterized Constructor
-  - Named Constructor
-  - Constant Constructor
 - Encapsulation
 - Getter and Setter
 - Inheritance
