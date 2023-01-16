@@ -1,28 +1,33 @@
-class Animal {
-  String? name;
-  int? age;
+// Named Constructor
+class Human {
+  String? region;
+  String? color;
+  int? averageAge;
 
-  Animal() {
+  Human() {
     print("This is a default constructor.");
   }
 
-  Animal.namedConstructor(String name, int age) {
-    this.name = name;
-    this.age = age;
+  Human.namedConstructor(String region, String color, int averageAge) {
+    this.region = region;
+    this.color = color;
+    this.averageAge = averageAge;
   }
 
-  Animal.dog(String name, int age) {
-    this.name = name;
-    this.age = age;
+  Human.bangladeshi(String region, int averageAge) {
+    this.region = region;
+    this.averageAge = averageAge;
   }
 }
 
 void main(List<String> args) {
-  // Animal animal = Animal();
-  Animal animal = Animal.namedConstructor("Jayanta", 32);
-  print(animal.name);
-  print("Age: ${animal.age}");
+  // Human human = Human();
 
-  Animal dog = Animal.dog("Jemi", 12);
-  print("Name: ${dog.name}");
+  Human human = Human.namedConstructor("African", "Black", 110);
+  print(human.region);
+  print("Age: ${human.averageAge}");
+
+  Human bangladeshi = Human.bangladeshi("Asian", 70);
+  print("Name: ${bangladeshi.color}");
+  print("Name: ${bangladeshi.averageAge}");
 }
