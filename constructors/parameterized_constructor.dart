@@ -1,24 +1,35 @@
-class Animal {
+class Person {
   String? name;
   int? age;
 
-  // Animal(this.name, this.age);
-
-  // Animal({required String name, required int age}) {
+  // Person(String name, int age) {
   //   this.name = name;
+  //   this.age = age;
   // }
 
-  // Animal({required this.name, required this.age});
+  // Person(this.name, this.age);
 
-  Animal({this.name, this.age});
+  // Person({required String name, required int age}) {
+  //   this.name = name;
+  //   this.age = age;
+  // }
+
+  // Person({required this.name, required this.age});
+
+  // Optional
+  Person({this.name, this.age});
 }
 
 void main(List<String> args) {
-  // Animal animal = Animal('Roky', 22);
-  // print("Name: ${animal.name}");
-  // print("Age: ${animal.age}");
+  // Person person = Person('Joy', 25);
+  // print("Name: ${person.name}");
+  // print("Age: ${person.age}");
 
-  Animal animal = Animal(name: 'Jemi');
-  print("Name: ${animal.name}");
-  print("Age: ${animal.age}");
+  // Person person = Person(age: 25, name: 'Joy dey');
+  // print("Name: ${person.name}");
+  // print("Age: ${person.age}");
+
+  Person person = Person(name: "Fahim");
+  print("Name: ${person.name}");
+  print("Age: ${person.age}");
 }
