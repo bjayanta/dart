@@ -2,8 +2,8 @@
 // Getter is used to get the value of a property. It is mostly used to access a private property’s value. Getter provide explicit read access to an object properties.
 
 // Syntax:
-// return_type get property_name {
-//    Getter body
+// return-type get property-name {
+//   Getter body
 // }
 
 // Example:
@@ -25,85 +25,87 @@
 // }
 
 // Example:
-// class NoteBook {
+// class Car {
 //   // Private properties
-//   String? _name;
-//   double? _prize;
+//   String? _brand;
+//   double? _price;
 
 //   // Constructor
-//   NoteBook(this._name, this._prize);
+//   Car(this._brand, this._price);
 
-//   // Getter method to access private property _name
-//   String get name => this._name!;
+//   // Getter method to access private property _brand
+//   String get getMyCarBrand => this._brand!;
 
-//   // Getter method to access private property _prize
-//   double get prize => this._prize!;
+//   // Getter method to access private property _price
+//   double get getMyCarPrice => _price!;
 // }
 
 // void main() {
-//   // Create an object of NoteBook class
-//   NoteBook nb = new NoteBook("HP", 500);
-//   // Display the values of the object
-//   print(nb.name);
-//   print(nb.prize);
+//   // Car car = new Car("Toyota", 50000000);
+//   Car car = new Car("", 50000000);
+
+//   print(car.getMyCarBrand);
+//   print(car.getMyCarPrice);
 // }
 
 // Example:
-// class NoteBook {
-//   // Private properties
-//   String _name;
-//   double _prize;
+class Car {
+  // Private properties
+  String _brand;
+  double _price;
 
-//   // Constructor
-//   NoteBook(this._name, this._prize);
+  // Constructor
+  Car(this._brand, this._price);
 
-//   // Getter to access private property _name
-//   String get name {
-//     if (_name == "") {
-//       return "No Name";
-//     }
-//     return this._name;
-//   }
+  // Getter to access private property _brand
+  String get getMyCarBrand {
+    if (_brand == "") {
+      return "No Brand Found!";
+    }
 
-//   // Getter to access private property _prize
-//   double get prize {
-//     return this._prize;
-//   }
-// }
+    return this._brand;
+  }
 
-// void main() {
-//   // Create an object of NoteBook class
-//   NoteBook nb = new NoteBook("Apple", 1000);
-//   print("First Notebook name: ${nb.name}");
-//   print("First Notebook prize: ${nb.prize}");
-//   NoteBook nb2 = new NoteBook("", 500);
-//   print("Second Notebook name: ${nb2.name}");
-//   print("Second Notebook prize: ${nb2.prize}");
-// }
-
-// Example:
-class Doctor {
-// Private properties
-  String _name;
-  int _age;
-  String _gender;
-
-// Constructor
-  Doctor(this._name, this._age, this._gender);
-
-// Getters
-  String get name => _name;
-  int get age => _age;
-  String get gender => _gender;
-
-// Map Getter
-  Map<String, dynamic> get map {
-    return {"name": _name, "age": _age, "gender": _gender};
+  // Getter to access private property _price
+  // double get getMyCarPrice => _price;
+  double get getMyCarPrice {
+    return _price;
   }
 }
 
 void main() {
-// Create an object of Doctor class
-  Doctor d = Doctor("John", 41, "Male");
-  print(d.map);
+  // Car car = new Car("Tesla", 1000000);
+  // print(car.getMyCarBrand);
+  // print(car.getMyCarPrice);
+
+  Car car = new Car("", 1000000);
+  print(car.getMyCarBrand);
+  print(car.getMyCarPrice);
 }
+
+// Example:
+// class Doctor {
+// // Private properties
+//   String _name;
+//   int _age;
+//   String _gender;
+
+// // Constructor
+//   Doctor(this._name, this._age, this._gender);
+
+// // Getters
+//   String get name => _name;
+//   int get age => _age;
+//   String get gender => _gender;
+
+// // Map Getter
+//   Map<String, dynamic> get map {
+//     return {"name": _name, "age": _age, "gender": _gender};
+//   }
+// }
+
+// void main() {
+// // Create an object of Doctor class
+//   Doctor d = Doctor("John", 41, "Male");
+//   print(d.map);
+// }

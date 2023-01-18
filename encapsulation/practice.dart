@@ -1,14 +1,42 @@
-import './private_properties.dart';
+import 'human.dart';
 
-void main() {
-  var student = Student();
+void main(List<String> args) {
+  Human human = Human();
 
-  // set student name
-  student.setName("Sagor");
+  // error
+  // human._name = "Fahim"; // set
+  // print(human._name); // get
 
-  // get student name
-  print(student.getName());
+  human.age = 70;
+  print(human.age);
 
-  // student._name = "Baky"; // error
-  // print(student._name); // error
+  // set private property
+  human.setName("Tripti");
+
+  // get private property
+  print(human.getName());
 }
+
+
+
+
+
+
+
+
+
+
+// import './private_properties.dart';
+
+// void main() {
+//   var student = Student();
+
+//   // set student name
+//   student.setName("Sagor");
+
+//   // get student name
+//   print(student.getName());
+
+//   // student._name = "Baky"; // error
+//   // print(student._name); // error
+// }

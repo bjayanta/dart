@@ -25,7 +25,7 @@
  */
 
 /**
- * Why Encapsulation Is Important?
+ * Why Encapsulation is important?
  * 
  * Data Hiding: 
  * Encapsulation hides the data from the outside world. 
