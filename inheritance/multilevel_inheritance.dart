@@ -44,15 +44,15 @@ class Person {
 
 class Doctor extends Person {
   // Properties
-  List<String>? listofdegrees;
-  String? hospitalname;
+  List<String>? listOfDegrees;
+  String? hospitalName;
 
   // Method to display the values of the properties
   void display() {
     print("Name: ${name}");
     print("Age: ${age}");
-    print("List of Degrees: ${listofdegrees}");
-    print("Hospital Name: ${hospitalname}");
+    print("List of Degrees: ${listOfDegrees}");
+    print("Hospital Name: ${hospitalName}");
   }
 }
 
@@ -73,8 +73,8 @@ void main() {
   // setting values to the object
   s.name = "John";
   s.age = 30;
-  s.listofdegrees = ["MBBS", "MD"];
-  s.hospitalname = "ABC Hospital";
+  s.listOfDegrees = ["MBBS", "MD"];
+  s.hospitalName = "ABC Hospital";
   s.specialization = "Cardiologist";
   // Display the values of the object
   s.display();

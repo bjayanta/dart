@@ -90,6 +90,9 @@ class MacBookPro extends MacBook {
 }
 
 void main() {
-  var macbookpro = MacBookPro();
-  macbookpro.display();
+  // MacBook macBook = MacBook();
+  // macBook.display();
+
+  MacBookPro macBookPro = MacBookPro();
+  macBookPro.display();
 }
