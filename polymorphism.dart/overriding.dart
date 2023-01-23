@@ -1,16 +1,16 @@
 // Example
-class Car {
+class Gari {
   void power() {
-    print("It runs on petrol.");
+    print("Petrol chalito gari.");
   }
 }
 
-class Honda extends Car {}
+class Honda extends Gari {}
 
-class Tesla extends Car {
+class Tesla extends Gari {
   @override
   void power() {
-    print("It runs on electricity.");
+    print("Electricity chalito gari.");
   }
 }
 

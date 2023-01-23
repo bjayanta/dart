@@ -7,6 +7,8 @@
 //   }
 // }
 
+import 'dart:io';
+
 // Example:
 class SimpleMath {
   static int sum(int m, int n) {
@@ -15,6 +17,9 @@ class SimpleMath {
 }
 
 void main() {
-  final sum = SimpleMath.sum(10, 11);
-  print(sum);
+  // need to declare an object
+  // SimpleMath simpleMath = SimpleMath();
+  // print(simpleMath.sum(20, 11));
+
+  print(SimpleMath.sum(10, 11));
 }
