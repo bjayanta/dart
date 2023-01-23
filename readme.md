@@ -26,10 +26,11 @@
   - Inheritance of Constructors
   - Super Keyword
 - Polymorphism
-  - @overriding methods
-  - @overloading methods (optional parameters)
-- Enum
-- Final, Late, Static & Const Keywords
+  - Methods Overriding
+  - Methods Overloading (Dart doesn't have overloading)
+- Static Keyword
+- Enum Keyword
+- Final, Late & Const Keywords
 - Abstract
 - Interface
 - Mixin

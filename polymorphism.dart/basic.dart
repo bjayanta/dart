@@ -7,3 +7,13 @@
  * We can be a student, a teacher, a parent, a friend, and so on. Similarly, 
  * in object-oriented programming, polymorphism is the ability of an object to take on many forms.
  */
+
+// Syntax:
+class ParentClass {
+  void functionName() {}
+}
+
+class ChildClass extends ParentClass {
+  @override
+  void functionName() {}
+}
