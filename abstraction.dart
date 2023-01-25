@@ -12,6 +12,7 @@
 
 //   method1(); // abstract method
 //   method2(); // abstract method
+//   method3() {} // abstract method
 // }
 
 // Example:
@@ -21,7 +22,7 @@
 //   void stop(); // Abstract method
 // }
 
-// class Car extends Gari {
+// class Riksha extends Gari {
 //   // Implementation of start()
 //   @override
 //   void start() {
@@ -35,30 +36,13 @@
 //   }
 // }
 
-// class Bike extends Car {
-//   // Implementation of start()
-//   @override
-//   void start() {
-//     print('Bike started');
-//   }
-
-//   // Implementation of stop()
-//   @override
-//   void stop() {
-//     print('Bike stopped');
-//   }
-// }
-
 // void main() {
-//   Car car = Car();
-//   car.start();
-//   car.stop();
-
-//   Bike bike = Bike();
-//   bike.start();
-//   bike.stop();
+//   Riksha riksha = Riksha();
+//   riksha.start();
+//   riksha.stop();
 // }
 
+// Example
 abstract class Shape {
   // Fields
   int length1, length2;
@@ -77,7 +61,7 @@ class Rectangle extends Shape {
   // Implementation of area()
   @override
   void area() {
-    print('The area of the rectangle is ${length1 * length1}');
+    print('The area of the rectangle is ${length1 * length2}');
   }
 }
 

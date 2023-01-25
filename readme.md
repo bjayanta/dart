@@ -30,7 +30,6 @@
   - Methods Overloading (Dart doesn't have overloading)
 - Static Keyword
 - Enum Keyword
-- Final, Late & Const Keywords
 - Abstract
 - Interface
 - Mixin

@@ -50,25 +50,33 @@
 // }
 
 // abstract class Human {
-//   sleep();
-//   gender() {}
+//   void sleep();
+//   canWalk() {}
 // }
 
 // class Person implements Animal, Human {
+//   @override
+//   canWalk() {
+//     // TODO: implement canWalk
+//     throw UnimplementedError();
+//   }
+
 //   @override
 //   void eat() {
 //     // TODO: implement eat
 //   }
 
 //   @override
-//   gender() {
-//     // TODO: implement gender
-//     throw UnimplementedError();
-//   }
-
-//   @override
-//   sleep() {
+//   void sleep() {
 //     // TODO: implement sleep
-//     throw UnimplementedError();
 //   }
 // }
+
+// Example: 
+// class A {}
+
+// abstract class B {}
+
+// class C {}
+
+// class D implements A, B, C {}
