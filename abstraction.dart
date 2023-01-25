@@ -1,76 +1,101 @@
-abstract class UserRepo {
-  late final List<int> userList;
+/**
+ * Abstract:
+ * 
+ * Abstract classes are classes that cannot be initialized. 
+ * It is used to define the behavior of a class that can be inherited by other classes. 
+ * An abstract class is declared using the keyword abstract.
+ */
 
-  void create();
-  List<int> read();
-  void update();
-  void delete();
+// Syntax
+// abstract class ClassName {
+//   // abstract class body
+
+//   method1(); // abstract method
+//   method2(); // abstract method
+// }
+
+// Example:
+// Abstract class
+// abstract class Gari {
+//   void start(); // Abstract method
+//   void stop(); // Abstract method
+// }
+
+// class Car extends Gari {
+//   // Implementation of start()
+//   @override
+//   void start() {
+//     print('Gari started');
+//   }
+
+//   // Implementation of stop()
+//   @override
+//   void stop() {
+//     print('Gari stopped');
+//   }
+// }
+
+// class Bike extends Car {
+//   // Implementation of start()
+//   @override
+//   void start() {
+//     print('Bike started');
+//   }
+
+//   // Implementation of stop()
+//   @override
+//   void stop() {
+//     print('Bike stopped');
+//   }
+// }
+
+// void main() {
+//   Car car = Car();
+//   car.start();
+//   car.stop();
+
+//   Bike bike = Bike();
+//   bike.start();
+//   bike.stop();
+// }
+
+abstract class Shape {
+  // Fields
+  int length1, length2;
+
+  // Constructor
+  Shape(this.length1, this.length2);
+
+  // Abstract method
+  void area();
 }
 
-abstract class Abc {
-  void display();
-}
+class Rectangle extends Shape {
+  // Constructor
+  Rectangle(int length1, int length2) : super(length1, length2);
 
-class User implements UserRepo, Abc {
+  // Implementation of area()
   @override
-  late final List<int> userList;
-
-  User() {
-    userList = read();
-  }
-
-  external void tripti();
-
-  @override
-  void create() {
-    print("Create");
-  }
-
-  @override
-  void delete() => print("Delete");
-
-  // @override
-  // List<int> read() {
-  //   return [1, 2, 3, 4, 5];
-  // }
-
-  @override
-  List<int> read() => [1, 2, 3, 4, 5];
-
-  @override
-  void update() => print("Update!");
-
-  @override
-  void display() => print(this.userList);
-}
-
-class A {
-  void methodA() {
-    print("123");
+  void area() {
+    print('The area of the rectangle is ${length1 * length1}');
   }
 }
 
-class B {
-  void methodB() {}
+class Triangle extends Shape {
+  // Constructor
+  Triangle(int length1, int length2) : super(length1, length2);
+
+  // Implementation of area()
+  @override
+  void area() {
+    print('The area of the triangle is ${0.5 * length1 * length2}');
+  }
 }
 
-class C {
-  void methodC() {}
-}
+void main() {
+  Rectangle rectangle = Rectangle(10, 20);
+  rectangle.area();
 
-class D implements A, B, C {
-  @override
-  void methodA() {
-    // TODO: implement methodA
-  }
-
-  @override
-  void methodB() {
-    // TODO: implement methodB
-  }
-
-  @override
-  void methodC() {
-    // TODO: implement methodC
-  }
+  Triangle triangle = Triangle(10, 20);
+  triangle.area();
 }
