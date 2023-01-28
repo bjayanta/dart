@@ -20,12 +20,12 @@
 // }
 
 // void main() {
-//   Area area = Area(10, 20);
-//   print("Area is: ${area.area}");
+//   Area rec1 = Area(10, 20);
+//   print("Area is: ${rec1.area}");
 
 //   // notice that here is a negative value
-//   Area area2 = Area(-10, 20);
-//   print("Area is: ${area2.area}");
+//   Area rec2 = Area(-10, 20);
+//   print("Area is: ${rec2.area}");
 // }
 
 // Example: With Factory Constructor
@@ -49,12 +49,12 @@
 
 // void main() {
 //   // This works
-//   Area area = Area(10, 20);
-//   print("Area is: ${area.area}");
+//   Area rec1 = Area(10, 20);
+//   print("Area is: ${rec1.area}");
 
 //   // notice that here is negative value
-//   Area area2 = Area(-10, 20);
-//   print("Area is: ${area2.area}");
+//   Area rec2 = Area(-10, 20);
+//   print("Area is: ${rec2.area}");
 // }
 
 // Example
@@ -131,21 +131,21 @@
 // }
 
 // Singleton using dart factory
-class Singleton {
-  // static variable
-  static final Singleton _instance = Singleton._internal();
+// class Singleton {
+//   // static variable
+//   static final Singleton _instance = Singleton._internal();
 
-// factory constructor
-  factory Singleton() {
-    return _instance;
-  }
-  // private constructor
-  Singleton._internal();
-}
+// // factory constructor
+//   factory Singleton() {
+//     return _instance;
+//   }
+//   // private constructor
+//   Singleton._internal();
+// }
 
-void main() {
-  Singleton obj1 = Singleton();
-  Singleton obj2 = Singleton();
-  print(obj1.hashCode);
-  print(obj2.hashCode);
-}
+// void main() {
+//   Singleton obj1 = Singleton();
+//   Singleton obj2 = Singleton();
+//   print(obj1.hashCode);
+//   print(obj2.hashCode);
+// }

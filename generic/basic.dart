@@ -9,22 +9,34 @@
 
 // Syntax:
 // class ClassName<T> {
-//   code goes to here
+//   // code goes to here
 // }
 
-// Example
-// Using Generics
-class Data<T> {
-  T data;
-  Data(this.data);
+// Example: Using Generics
+// class Data<T> {
+//   T x;
+//   Data(this.x);
+// }
+
+// void main() {
+//   // create an object of type int and double
+//   Data<int> age = Data<int>(10);
+//   // Data<double> weight = Data<double>(10.5);
+//   Data name = Data("Jayanta");
+
+//   // print the data
+//   // print("${age.x} is ${age.x.runtimeType}");
+//   // print("${weight.x} is ${weight.x.runtimeType}");
+//   print("${name.x} is ${name.x.runtimeType}");
+// }
+
+bool abc<T, E>(T m, E n) {
+  return T == E;
 }
 
+// we can then put the function to test
 void main() {
-  // create an object of type int and double
-  Data<int> intData = Data<int>(10);
-  Data<double> doubleData = Data<double>(10.5);
-
-  // print the data
-  print("IntData: ${intData.data}");
-  print("DoubleData: ${doubleData.data}");
+  print(abc(1, 2));
+  print(abc(1, 2.5));
+  print(abc("Jayanta", 2.5));
 }
