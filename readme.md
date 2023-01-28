@@ -25,10 +25,10 @@ Theory, Examples & Home Work.
 13. Functions
 14. Collections
 15. OOP
+16. Asynchronous Programming
+17. Null Safety
 
-- Null Safety
-- Asynchronous Programming
-- Exam + Certificate
+## Exam + Certificate
 
 ## Best tutorial websites
 
