@@ -2,18 +2,18 @@ void main(List<String> args) async {
   // print(await response());
   // print("Hello");
 
-  // response().then((x) {
-  //   print(x);
-  // });
+  // response().then((x) => print(x));
   // print("Hello");
 
   // response().then((x) {
+  //   print(x);
   //   var a = 10;
   //   var b = 20;
   //   var c = a + b;
   //   print(c);
   // });
 
+  // Handle Errors
   try {
     response().then((value) => print("Expected result."));
   } catch (e) {

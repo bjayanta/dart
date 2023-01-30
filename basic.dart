@@ -4,7 +4,7 @@
  * To Fetch Data From Internet
  * To Write Something to Database
  * To execute a long-time consuming task
- * To Read Data From File, and
+ * To Read Data From File
  * To Download File etc.
  */
 
@@ -15,6 +15,7 @@
  * Synchronous operation means a task that needs to be solved before proceeding to the next one.
  */
 
+// Example
 // void main() {
 //   print("First Operation");
 //   print("Second Big Operation");
@@ -33,6 +34,11 @@
 void main() {
   print("First Operation");
   Future.delayed(Duration(seconds: 3), () => print('Second Big Operation'));
+
+  Future.delayed(Duration(seconds: 5), () {
+    print('This is a test.');
+  });
+
   print("Third Operation");
   print("Last Operation");
 }
