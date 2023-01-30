@@ -9,6 +9,10 @@
  * Completed
  */
 
+// Syntax:
+// Future <data_type> class_name
+
+// Example
 void main() {
   print("Start");
   getData();
