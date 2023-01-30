@@ -18,25 +18,25 @@
 void main() {
   // int x = 20; // non-nullable
   // int x = null; // give error
-  // pritn(x);
+  // print(x);
 
   String? name; // Declaring
   name = "Jayanta"; // Assigning
   name = null; // Assigning null value
-  print(name);
+  // print(name);
 
-  // Checking if name is null using if statement
-  if (name == null) {
-    print("Name is null");
-  }
+  // Checking variable has null value or not
+  // if (name == null) {
+  //   print("Name is null");
+  // }
 
   // Using ?? operator to assign a default value
-  String name1 = name ?? "Chini na";
-  print(name1);
+  // String name1 = name ?? "Chini na";
+  // print(name1);
 
   // Using ! operator to return null if name is null
-  String name2 = name!;
-  print(name2);
+  // String name2 = name!;
+  // print(name2);
 
   // Define List Of Nullable Items
   List<int?> items = [1, 2, null, 4];
