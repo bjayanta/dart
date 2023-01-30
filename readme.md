@@ -19,6 +19,7 @@
   - Parameterized Constructor
   - Named Constructor
   - Constant Constructor
+  - Factory Constructor
 - Encapsulation
 - Getter and Setter
 - Inheritance
@@ -33,5 +34,4 @@
 - Abstract
 - Interface
 - Mixin
-- Factory Constructor
 - Generics

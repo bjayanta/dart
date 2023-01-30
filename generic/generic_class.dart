@@ -21,7 +21,7 @@ class Age {
 
 void main(List<String> args) {
   try {
-    FirstName("Jay");
+    FirstName("J");
     Age(12);
   } catch (e) {
     print(e);
