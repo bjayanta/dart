@@ -11,7 +11,7 @@
 /**
  * Synchronous Programming
  * 
- * In Synchronous programming, the program is executed line by line, one at a time. 
+ * The program is executed line by line, one at a time. 
  * Synchronous operation means a task that needs to be solved before proceeding to the next one.
  */
 
@@ -35,9 +35,9 @@ void main() {
   print("First Operation");
   Future.delayed(Duration(seconds: 3), () => print('Second Big Operation'));
 
-  Future.delayed(Duration(seconds: 5), () {
-    print('This is a test.');
-  });
+  // Future.delayed(Duration(seconds: 5), () {
+  //   print('This is a test.');
+  // });
 
   print("Third Operation");
   print("Last Operation");

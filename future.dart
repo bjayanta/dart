@@ -21,6 +21,7 @@ void main() {
 }
 
 void getGreetingData() async {
+  print("Hi There!");
   String data = await greetingFn();
   print(data);
   print("Hello world!");
